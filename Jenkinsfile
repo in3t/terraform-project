@@ -24,7 +24,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git clone'https://github.com/example/terraform-project.git'
+                git clone 'https://github.com/in3t/terraform-project.git'
             }
         }
 
