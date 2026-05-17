@@ -1,5 +1,3 @@
-FROM  openjdk
-RUN apt-get update && apt-get install -y maven
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
-RUN java -version
+FROM node:16-alpine
+
+RUN apk add -U git curl
